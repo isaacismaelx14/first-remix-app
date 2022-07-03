@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-error {
+    background-color: #ff584c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.error {
+    color: #ff584c;
+    font-size: 13px;
+}
+
+input, select, textarea {
+    margin-bottom: 0;
+}
+
+input.has-error, select.has-error, textarea.has-error {
+    border-color: #ff584c;
+}
